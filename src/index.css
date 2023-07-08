@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,6 +14,7 @@ code {
     monospace;
 }
 
+/* Header Style */
 .Header{
   -webkit-box-shadow: 0 0 10px rgba(40, 40, 38, 0.3);
   box-shadow: 0 0 10px rgba(113, 113, 110, 0.3);
@@ -24,29 +27,31 @@ code {
 
 .inp{
   display: flex;
+  margin-left: 30px;
+  height: 40px;
+  margin-top: 5px;
 }
 
 .inp input{
   width: 500px;
   border-left: none;
   background-color: aliceblue;
-  border-radius: 0;
   outline: none;
   border: none;
+  border-top-right-radius:8px ;
+  border-bottom-right-radius: 8px;
 }
 
 .inp span{
   border-right: none;
   background-color: aliceblue;
-  border-radius: 0;
   border: none;
 }
 
 .link a{
 text-decoration: none;
 color: black;
-font-size: 20px;
-padding: 20px;
+font-size: 17px;
 }
 
 .ml{
@@ -56,3 +61,56 @@ padding: 20px;
 .link{
   align-items: center;
 }
+
+.link div{
+  padding-left: 25px;
+}
+
+.ex{
+  color: #9e9e9e;
+    margin-right: 4px;
+    font-size: 12px;
+    font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+    font-style: italic;
+}
+
+.plus{
+  color: #ffc200;
+  margin-right: 4px;
+  font-size: 12px;
+  font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+  font-style: italic;
+} 
+
+.logo{
+  width: 70px;
+}
+
+.flip{
+  margin-left: 30px;
+}
+/* Header Style Ends */
+
+/* Category Style */
+.category {
+  -webkit-box-shadow: 0 0 10px rgba(40, 40, 38, 0.3);
+  box-shadow: 0 0 10px rgba(113, 113, 110, 0.3);
+  display: flex;
+  margin: 10px;
+}
+
+.category div a {
+  font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.box{
+  text-align: center;
+  padding-top:10px ;
+  padding-bottom: 15px;
+  width: 160px;
+}
+
+/* Category Style Ends */
