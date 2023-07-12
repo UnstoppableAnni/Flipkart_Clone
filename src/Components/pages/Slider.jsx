@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../flipkart.jpg';
 
 const Slider = () => {
   return (

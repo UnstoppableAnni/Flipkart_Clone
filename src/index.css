@@ -118,3 +118,39 @@ font-size: 17px;
 .carousel{
   margin: 10px;
 }
+
+.Footer{
+  display: flex;
+  background-color: rgb(37, 36, 36);
+}
+
+.Footer div{
+  display: grid;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.Footer div a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+}
+
+.Footer div p{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+}
+
+.Footer div h5{
+  color: #878787;
+    font-size: 12px;
+}
+
+.Footer hr{
+  transform: rotate(180deg);
+  border: 1px solid #454d5e;
+  margin-left: 30px;
+}

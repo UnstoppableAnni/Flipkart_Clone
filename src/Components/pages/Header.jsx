@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {LuSearch} from '../../../node_modules/react-icons/lu';
 import {AiOutlineShop,AiOutlineShoppingCart } from '../../../node_modules/react-icons/ai';
 import {PiUser} from '../../../node_modules/react-icons/pi';
